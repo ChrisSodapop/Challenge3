@@ -1,0 +1,13 @@
+  310  cat wilders.csv
+  311  grep -i "france,2019,php" wilders.csv | wc -l > php_france_2019.csv
+  312  grep -i "JavaScript" wilders.csv > jswilders.csv
+  313  grep -i "Toulouse,Biarritz" jswilders.csv > javascript_biarritz_toulouse.csv
+  314  grep -i "Toulouse" jswilders.csv > javascript_biarritz_toulouse.csv
+  315  grep -i "Biarritz" jswilders.csv > javascript_biarritz_toulouse.csv
+  316  grep -i "toulouse" jswilders.csv > toulouse.csv
+  317  cat toulouse.csv
+  318  grep -i "biarritz" jswilders.csv > biarritz.csv
+  319  cat toulouse.csv biarritz.csv > javascript_biarritz_toulouse.csv
+  320  history
+  321  history | tail -13
+  322  history | tail -13 > history.txt
